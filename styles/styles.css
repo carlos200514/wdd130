@@ -29,6 +29,7 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -37,11 +38,16 @@ p {
 
 aside {
     width: 400px;
+    position: relative;
 }
 
 aside img {
     width: 200px;
     height: auto;
+}
+
+aside h2 {
+    position: absolute;
 }
 
 footer {
@@ -55,6 +61,6 @@ footer {
     margin: 1rem;
     padding: 1rem;
     border: 2px solid gray;
-    background-color: #e9967a;
-    color: wheat;
+    background-color: salmon;
+    color: darkgreen;
 }
