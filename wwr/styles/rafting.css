@@ -1,9 +1,9 @@
 :root {
-    --main_color: lightgray;
-    --body_color: gray;
-    --secondary_color: steelblue;
+    --main_color: #ff7f50;
+    --body_color: rgb(0 0 0);
+    --heading_color: steelblue;
     --body_font: "Century Gothic", sans-serif;
-    --head_font: "Arial Black", sans-serif;
+    --heading_font: "Arial Black", sans-serif;
 }
 
 * {
@@ -24,7 +24,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--head_font);
-    color: var(--secondary_color);
+    color: var(--heading_color);
 }
 
 nav, p, section, article {
@@ -48,7 +48,7 @@ nav, p, section, article {
     right: 1px;
     left: 1px;
     background-color: var(--main_color);
-    color: var(--secondary_color);
+    color: var(--heading_color);
 }
 
 .hero img {
@@ -61,7 +61,7 @@ nav, p, section, article {
     position: absolute;
     bottom: 1px;
     background-color: var(--main_color);
-    color: var(--secondary_color);
+    color: var(--heading_color);
 }
 
 .hero article img {
