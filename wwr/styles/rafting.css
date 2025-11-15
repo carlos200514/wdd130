@@ -2,8 +2,8 @@
     --main_color: lightgray;
     --body_color: gray;
     --secondary_color: steelblue;
-    --body_font: Century Gothic;
-    --head_font: arial black;
+    --body_font: "Century Gothic", sans-serif;
+    --head_font: "Arial Black", sans-serif;
 }
 
 * {
