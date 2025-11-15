@@ -1,0 +1,46 @@
+:root {
+    --main_color: gray;
+    --secondary_color: steelblue;
+    --body_font: Century Gothic;
+    --head_font: arial black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body_font);
+    color: var(--main_color);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--head_font);
+    color: var(--secondary_color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
