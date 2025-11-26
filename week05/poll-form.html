@@ -15,19 +15,27 @@
     <main>
         <form>
             <h2>Contact information</h2>
-            <label for="full_name">Full name:</label>
-            <input type="text" id="fullname" name="fullname" required>
-            <label for="useremail">User's e-mail</label>
-            <input type="email" id="useremail" name="useremail" required>
+            <div class="form-item column2">
+                <label for="full_name">Full name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-item column2">
+                <label for="useremail">User's e-mail</label>
+                <input type="email" id="useremail" name="useremail" required>
+            </div>
             <h2>Questions</h2>
-            <label for="browser">What is your favorite browser?</label>
-            <select id="browser" name="browser">
-                <option value="chrome">Chrome</option>
-                <option value="edge">Edge</option>
-                <option value="safari">Safari</option>
-            </select>
-            <label for="pet">Do you have a household pet?</label>
-            <input type="checkbox" id="pet" name="pet">
+            <div class="form-item column1">
+                <label for="browser">What is your favorite browser?</label>
+                <select id="browser" name="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="edge">Edge</option>
+                    <option value="safari">Safari</option>
+                </select>
+            </div>
+            <div class="form-item column1">
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
             <label for="feedback">List the places you have lived:</label>
             <textarea id="feedback" name="feedback" rows="4"
                 placeholder="San Jose, Heredia, Mexico, Guatemala"></textarea>

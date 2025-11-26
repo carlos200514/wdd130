@@ -18,7 +18,7 @@ h1, h2 {
 }
 
 form {
-    width: 300px;
+    width: 400px;
     margin: 0 auto;
     padding: 1rem;
     border: 2px solid black;
@@ -66,4 +66,19 @@ button {
 
 button:hover {
   background-color: #0b0283;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 10px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 10px;
 }
