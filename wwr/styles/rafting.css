@@ -32,6 +32,7 @@ header {
 h1, h2 {
     font-family: var(--heading_font);
     color: var(--heading_color);
+    text-align: center;
 }
 
 h1, h2, p {
