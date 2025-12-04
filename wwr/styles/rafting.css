@@ -68,6 +68,7 @@ button {
 
 button:hover {
     background-color: #808080;
+    text-decoration: underline;
 }
 
 /* class selectors */
@@ -134,4 +135,21 @@ button:hover {
 
 .item {
     grid-template-columns: 1fr 1fr;
+}
+
+.trip img {
+    width: 200px;
+    height: auto;
+}
+
+.trip {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+}
+
+.button {
+    margin-top: 30px;
+    margin-left: 350px;
 }
