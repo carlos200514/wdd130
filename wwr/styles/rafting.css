@@ -165,3 +165,31 @@ button:hover {
     display: flex;
     flex-direction: column;
 }
+
+.main_tips {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.rafting {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_tips a {
+    margin-left: 200px;
+}
+
+.information {
+    text-align: center;
+}
+
+.more {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+}
